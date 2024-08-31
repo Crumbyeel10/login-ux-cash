@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    height: 20%;
+}
+.header button {
+    height: 40px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.User_info {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    
+}
+.User_info p{
+    margin: 0px;
+    width: 300px;
+}
+.admin-section {
+    width: 90%;
+}
+.admin-section h2 {
+    padding-left: 57px;
+}
+.users li{
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.users button {
+    height: 40px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

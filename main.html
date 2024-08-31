@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles_main.css">
+    <title>Página Principal - UX-Cash</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Bienvenido a UX-Cash</h1>
+        <button id="logout-button">Cerrar Sesión</button>
+    </header>
+    <div class="User_info" id="user-info">
+        <!-- Información del usuario autenticado -->
+         
+    </div>
+    <!-- Sección visible solo para administradores -->
+    <div class="admin-section" id="admin-section" style="display: none;">
+        <h2>Gestión de Usuarios</h2>
+        <ul class="users" id="user-list"></ul>
+    </div>
+    <script src="script.js"></script>
+    <script src="logout.js"></script>
+</body>
+</html>
